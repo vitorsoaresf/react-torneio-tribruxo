@@ -1,0 +1,176 @@
+@import url("http://fonts.cdnfonts.com/css/harry-potter");
+
+.student-card {
+  background-image: url(../../assets/img/moldura.png);
+  background-size: cover;
+  width: 300px;
+  height: 430px;
+  margin-top: 10px;
+  font-family: "Harry Potter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.student-card__box-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.student-card__box-img div {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 120px;
+  margin-bottom: 5px;
+}
+
+.Gryffindor {
+  width: 170px;
+  height: 270px;
+  border-left: 5px groove red;
+  border-right: 5px ridge red;
+  animation-name: gryffindor;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  border-radius: 100%;
+  background-image: url(../../assets/img/g.png);
+  margin-top: 20px;
+}
+
+.Slytherin {
+  width: 170px;
+  height: 270px;
+  border-left: 5px groove green;
+  border-right: 5px ridge green;
+  animation-name: slytherin;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  border-radius: 100%;
+  margin-top: 20px;
+}
+.Hufflepuff {
+  width: 170px;
+  height: 270px;
+  border-left: 5px groove gold;
+  border-right: 5px ridge gold;
+  animation-name: hufflepuff;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  border-radius: 100%;
+  margin-top: 20px;
+}
+.Ravenclaw {
+  width: 170px;
+  height: 270px;
+  border-left: 5px groove rgb(0, 132, 255);
+  border-right: 5px ridge rgb(0, 132, 255);
+  animation-name: ravenclaw;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  border-radius: 100%;
+  /* box-shadow: 0 0 0 5px hsl(51, 80%, 50%), 0 0 0 10px hsl(51, 80%, 40%),
+    0 0 0 15px hsl(51, 60%, 30%), 0 0 0 20px hsl(51, 40%, 20%),
+    0 0 0 25px hsl(51, 20%, 10%); */
+  margin-top: 20px;
+}
+
+.G {
+  background-image: url(../../assets/img/g.png);
+  background-size: cover;
+  border-radius: 100%;
+}
+
+.S {
+  background-image: url(../../assets/img/s.png);
+  background-size: cover;
+  border-radius: 100%;
+}
+
+.H {
+  background-image: url(../../assets/img/h.png);
+  background-size: cover;
+  border-radius: 100%;
+}
+
+.R {
+  background-image: url(../../assets/img/r.png);
+  background-size: cover;
+  border-radius: 100%;
+}
+
+.student-card__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.student-card__description p {
+  color: rgb(92, 51, 32);
+  font-size: 1.5rem;
+  margin: 1px;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+  .student-card {
+    margin: 0 10px;
+  }
+}
+
+@keyframes gryffindor {
+  0% {
+    box-shadow: 0 0 2.5em rgb(175, 0, 0);
+  }
+  50% {
+    box-shadow: 0 0 0em rgb(175, 0, 0);
+  }
+  100% {
+    box-shadow: 0 0 2.5em rgb(175, 0, 0);
+  }
+}
+
+@keyframes slytherin {
+  0% {
+    box-shadow: 0 0 2.5em rgb(13, 117, 13);
+  }
+  50% {
+    box-shadow: 0 0 0em rgb(13, 117, 13);
+  }
+  100% {
+    box-shadow: 0 0 2.5em rgb(13, 117, 13);
+  }
+}
+
+@keyframes hufflepuff {
+  0% {
+    box-shadow: 0 0 2.5em rgb(145, 123, 0);
+  }
+  50% {
+    box-shadow: 0 0 0em rgb(145, 123, 0);
+  }
+  100% {
+    box-shadow: 0 0 2.5em rgb(145, 123, 0);
+  }
+}
+
+@keyframes ravenclaw {
+  0% {
+    box-shadow: 0 0 2.5em rgb(0, 132, 255);
+  }
+  50% {
+    box-shadow: 0 0 0em rgb(0, 132, 255);
+  }
+  100% {
+    box-shadow: 0 0 2.5em rgb(0, 132, 255);
+  }
+}

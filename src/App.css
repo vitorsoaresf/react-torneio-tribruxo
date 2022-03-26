@@ -1,0 +1,385 @@
+@import url("http://fonts.cdnfonts.com/css/harry-potter");
+
+.App {
+  text-align: center;
+}
+
+.box_home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../src/assets/img/papiro.jpg);
+  background-size: cover;
+}
+
+.box_home {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Harry Potter", sans-serif;
+}
+
+.box_home__title {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+  animation-name: titulo;
+  animation-duration: 5s;
+  font-size: 3rem;
+  color: #5c3d19;
+  height: 20vh;
+}
+
+.box_home__houses {
+  display: flex;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+  top: 0%;
+  animation-name: bandeiras;
+  animation-duration: 5s;
+  width: 100vw;
+  height: 90px;
+}
+
+.homeG {
+  width: 75px;
+  height: 90px;
+  background-image: url(assets/img/g.png);
+  background-size: cover;
+  margin-bottom: -20px;
+}
+
+.homeG__faixa {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  background-color: #6f1e51;
+  border-left: 10px groove #f79f1f;
+  border-right: 4px double #f7a11f34;
+  width: 50px;
+  height: 20vh;
+  border-radius: 0px 0px 100px 100px;
+}
+
+.homeS {
+  width: 75px;
+  height: 90px;
+  background-image: url(assets/img/s.png);
+  background-size: cover;
+  margin-bottom: -20px;
+}
+
+.homeS__faixa {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  background-color: #6f1e51;
+  border-right: 4px double #f7a11f34;
+  width: 50px;
+  height: 20vh;
+  border-radius: 0px 0px 100px 100px;
+}
+
+.homeR {
+  width: 75px;
+  height: 90px;
+  background-image: url(assets/img/r.png);
+  background-size: cover;
+  margin-bottom: -20px;
+}
+.homeR__faixa {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  background-color: #6f1e51;
+  border-right: 4px double #f7a11f34;
+  width: 50px;
+  height: 20vh;
+  border-radius: 0px 0px 100px 100px;
+}
+
+.homeH {
+  width: 75px;
+  height: 90px;
+  background-image: url(assets/img/h.png);
+  background-size: cover;
+  margin-bottom: -20px;
+}
+
+.homeH__faixa {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  background-color: #6f1e51;
+  border-right: 10px ridge #f79f1f;
+  width: 50px;
+  height: 20vh;
+  border-radius: 0px 0px 100px 100px;
+}
+
+.box_home__button {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 10vw;
+  height: 10vh;
+  border-radius: 10px;
+  animation-name: box-button;
+  animation-duration: 4s;
+  margin: 20px 0;
+}
+
+.box_home__button button {
+  background-color: #6f1e51;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  color: #a3733c;
+  background-color: #5c3d19;
+  width: 120px;
+  height: 100px;
+  cursor: pointer;
+  font-size: 5rem;
+  font-family: "Harry Potter", sans-serif;
+  transition: background-color 3s;
+}
+
+.box_home__button button:hover {
+  background-color: #6f1e51;
+  border-left: 5px groove #f79f1f;
+  border-right: 5px ridge #f79f1f;
+  border-top: 5px groove #f79f1f;
+  border-bottom: 5px ridge #f79f1f;
+  color: #f79f1f;
+  box-shadow: 0 0 1em gold;
+}
+
+@media (min-width: 1024px) {
+  .App {
+    text-align: center;
+    width: 100vh;
+  }
+
+  .box_home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../src/assets/img/papiro.jpg);
+    background-size: cover;
+    color: #c289ad;
+  }
+
+  .box_home {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Harry Potter", sans-serif;
+    font-size: 4rem;
+  }
+
+  .box_home__title {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    font-size: 4rem;
+    height: 20vh;
+    color: #c289ad;
+  }
+  .box_home__houses {
+    background-color: unset;
+    margin-top: 0;
+    display: flex;
+    position: absolute;
+    z-index: 0;
+    top: 0%;
+    animation-name: bandeiras;
+    animation-duration: 5s;
+  }
+
+  .homeG {
+    width: 100px;
+    height: 120px;
+    background-image: url(assets/img/g.png);
+    background-size: cover;
+    margin-bottom: -20px;
+  }
+
+  .homeG__faixa {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-color: #6f1e51;
+    border-left: 10px groove #f79f1f;
+    border-right: 4px double #f7a11f34;
+    width: 110px;
+    height: 85vh;
+    border-radius: 0px 0px 100px 100px;
+  }
+
+  .homeS {
+    width: 100px;
+    height: 120px;
+    background-image: url(assets/img/s.png);
+    background-size: cover;
+    margin-bottom: -20px;
+  }
+
+  .homeS__faixa {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-color: #6f1e51;
+    border-right: 4px double #f7a11f34;
+    width: 110px;
+    height: 85vh;
+    border-radius: 0px 0px 100px 100px;
+  }
+
+  .homeR {
+    width: 100px;
+    height: 120px;
+    background-image: url(assets/img/r.png);
+    background-size: cover;
+    margin-bottom: -20px;
+  }
+
+  .homeR__faixa {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-color: #6f1e51;
+    border-right: 4px double #f7a11f34;
+    width: 110px;
+    height: 85vh;
+    border-radius: 0px 0px 100px 100px;
+  }
+
+  .homeH {
+    width: 100px;
+    height: 120px;
+    background-image: url(assets/img/h.png);
+    background-size: cover;
+    margin-bottom: -20px;
+  }
+
+  .homeH__faixa {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-color: #6f1e51;
+    border-right: 10px ridge #f79f1f;
+    width: 110px;
+    height: 85vh;
+    border-radius: 0px 0px 100px 100px;
+  }
+
+  .box_home__button {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 10vh;
+    border-radius: 10px;
+  }
+
+  .box_home__button button {
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    color: #6f1e51;
+    background-color: #f79f1f;
+    width: 120px;
+    height: 100px;
+    cursor: pointer;
+    font-size: 5rem;
+    font-family: "Harry Potter", sans-serif;
+    transition: background-color 3s;
+  }
+
+  .box_home__button button:hover {
+    background-color: #6f1e51;
+    border-left: 5px groove #f79f1f;
+    border-right: 5px ridge #f79f1f;
+    border-top: 5px groove #f79f1f;
+    border-bottom: 5px ridge #f79f1f;
+    color: #f79f1f;
+    box-shadow: 0 0 1em gold;
+  }
+
+  @keyframes box-button {
+    from {
+      opacity: 0;
+      margin-bottom: -520px;
+    }
+    to {
+      opacity: 1;
+      margin-bottom: 0px;
+    }
+  }
+
+  @keyframes bandeiras {
+    from {
+      top: -100%;
+    }
+    to {
+      top: 0%;
+    }
+  }
+
+  @keyframes titulo {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+@keyframes box-button {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes bandeiras {
+  from {
+    top: -100%;
+  }
+  to {
+    top: 0%;
+  }
+}
+
+@keyframes titulo {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

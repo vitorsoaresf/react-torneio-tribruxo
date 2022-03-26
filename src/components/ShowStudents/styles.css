@@ -1,0 +1,112 @@
+@import url("http://fonts.cdnfonts.com/css/harry-potter");
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.container__students {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container__bt {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  font-family: "Harry Potter", sans-serif;
+  margin-top: 20px;
+}
+
+.container__bt__iniciar {
+  font-size: 7rem;
+  color: #f79f1f;
+  background-color: unset;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 100%;
+}
+
+.wizard-win {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.wizard-win button {
+  font-size: 5rem;
+  position: absolute;
+  background-color: #66420b;
+  border-radius: 100%;
+  border: none;
+  color: #f79f1f;
+  margin-top: -350px;
+  margin-left: 200px;
+  cursor: pointer;
+}
+
+.wizard-win__title {
+  position: absolute;
+  font-size: 5rem;
+  color: #f79f1f;
+  margin-top: -350px;
+  margin-right: 200px;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    justify-content: center;
+    height: 100vh;
+  }
+  .container__students {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wizard-win {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.657);
+    width: 100vw;
+    height: 100vh;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+
+  .wizard-win button {
+    font-size: 5rem;
+    position: absolute;
+    background-color: #66420b;
+    border-radius: 100%;
+    border: none;
+    color: #f79f1f;
+    margin-top: -400px;
+    margin-right: -50px;
+    cursor: pointer;
+  }
+
+  .wizard-win__title {
+    font-size: 5rem;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: -50px;
+    color: #f79f1f;
+  }
+}
