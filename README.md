@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Link App - https://react-entrega-s1-preparativos-para-o-torneio-tribr-vitorsoaresf.vercel.app/ 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
